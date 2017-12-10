@@ -29,6 +29,7 @@ function fish_right_prompt
         set -l duration (echo $CMD_DURATION | humanize_duration)
         echo -sn "$color$duration$color_normal "
     else
-        echo -sn "$color$VIRTUAL_ENV$color_normal "
+        set -l venv_name (basename "$VIRTUAL_ENV")
+        echo -sn "$color$venv_name$color_normal "
     end
 end
