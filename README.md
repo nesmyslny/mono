@@ -1,16 +1,14 @@
-[![Slack Room][slack-badge]][slack-link]
-
 # Mono
 
-Minimal prompt.
+Minimal fish-shell prompt.
 
 ![Mono](https://cloud.githubusercontent.com/assets/8317250/15419836/bfeddb0e-1ea3-11e6-9a56-21dc7dd79d4b.png)
 ![Mono](https://cloud.githubusercontent.com/assets/8317250/15419851/f1925504-1ea3-11e6-9902-29f03b5101b4.png)
 
 
-## Install
+## Installation
 
-With [fisherman]
+With [fisher]:
 
 ```fish
 fisher mono
@@ -41,6 +39,8 @@ fisher mono
 
 * Font: 22pt [Mononoki](https://github.com/madmalik/mononoki)
 
-[slack-link]: https://fisherman-wharf.herokuapp.com/
-[slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
-[fisherman]: https://github.com/fisherman/fisherman
+[fisherman]: https://github.com/jorgebucaran/fisher
+
+## License
+
+Mono is MIT licensed. See [LICENSE](/LICENSE.md).
